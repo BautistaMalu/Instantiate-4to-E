@@ -326,13 +326,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 186466415}
   m_TextComponent: {fileID: 1749431786}
   m_Placeholder: {fileID: 289485666}
-  m_ContentType: 0
+  m_ContentType: 2
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 0
+  m_KeyboardType: 4
   m_LineType: 0
   m_HideMobileInput: 0
-  m_CharacterValidation: 0
+  m_CharacterValidation: 1
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
@@ -698,7 +698,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 805519687}
-        m_MethodName: ShowGreetings
+        m_MethodName: ShowDouble
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
