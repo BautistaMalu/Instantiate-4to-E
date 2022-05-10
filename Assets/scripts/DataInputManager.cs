@@ -17,7 +17,7 @@ public class DataInputManager : MonoBehaviour
         {
 
             Debug.Log(int.Parse(txtUserName.text) * 2);
-
+                
         }
     }
 }
