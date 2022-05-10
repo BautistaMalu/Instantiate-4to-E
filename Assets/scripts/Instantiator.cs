@@ -12,11 +12,13 @@ public class Instantiator : MonoBehaviour
     public void MultiInstantiate()
     {
         cloneamount = int.Parse(txtUserCloneAmount.text);
-        int counter = 0;
-        while (counter < cloneamount)
+
+  
+
+        for (int i=0; i<cloneamount; i++)
         {
             Instantiate(objectToClone);
-            counter++;
+
         }
     }
 }
