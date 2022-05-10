@@ -697,8 +697,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 805519687}
-        m_MethodName: ShowDouble
+      - m_Target: {fileID: 1137861067}
+        m_MethodName: MultiInstantiate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -918,6 +918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToClone: {fileID: 590063301479461413, guid: fbc07ceec8aceab46bf5be128f9f7789,
     type: 3}
+  txtUserCloneAmount: {fileID: 1749431786}
 --- !u!4 &1137861068
 Transform:
   m_ObjectHideFlags: 0
